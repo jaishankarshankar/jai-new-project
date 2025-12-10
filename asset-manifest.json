@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jai-new-project/static/css/main.8fbb381b.css",
+    "main.js": "/jai-new-project/static/js/main.ffc5e7ab.js",
+    "index.html": "/jai-new-project/index.html",
+    "main.8fbb381b.css.map": "/jai-new-project/static/css/main.8fbb381b.css.map",
+    "main.ffc5e7ab.js.map": "/jai-new-project/static/js/main.ffc5e7ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fbb381b.css",
+    "static/js/main.ffc5e7ab.js"
+  ]
+}
