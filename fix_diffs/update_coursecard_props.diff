@@ -1,0 +1,25 @@
+{filteredCourses.map(course => (
+              <CourseCard key={course.name} course={course} />
+            ))}
+          </section>
+=======
+          <section id="coursesGrid" className="grid">
+            {filteredCourses.map(course => {
+              const metaParts = [];
+              if (course.level) metaParts.push(course.level);
+              if (course.duration) metaParts.push(course.duration);
+              if (course.projects) metaParts.push(course.projects);
+              const meta = metaParts.join(' | ');
+
+              return (
+                <CourseCard
+                  key={course.id}
+                  id={course.id}
+                  title={course.name}
+                  meta={meta}
+                  description={course.desc}
+                  category={course.cat}
+                />
+              );
+            })}
+          </section>

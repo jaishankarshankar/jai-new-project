@@ -1,0 +1,242 @@
+{
+    cat: 'electronics',
+    name: 'Circuit Creator Basics',
+    level: 'Beginner',
+    duration: '6 weeks',
+    projects: '8 projects',
+    desc: 'Learn LEDs, buzzers, switches & breadboard basics.'
+  },
+  {
+    cat: 'electronics',
+    name: 'Sensor Science Lab',
+    level: 'Intermediate',
+    duration: '8 weeks',
+    projects: '10 projects',
+    desc: 'Build smart systems with LDR, IR & Ultrasonic sensors.'
+  },
+  {
+    cat: 'electronics',
+    name: 'Arduino Mini Engineer',
+    level: 'Advanced',
+    duration: '8 weeks',
+    projects: '12 projects',
+    desc: 'Create automation projects using Arduino.'
+  },
+  {
+    cat: 'coding',
+    name: 'Python Starter Bootcamp',
+    level: 'Beginner',
+    duration: '6 weeks',
+    projects: '',
+    desc: 'Learn Python basics & build mini apps.'
+  },
+  {
+    cat: 'coding',
+    name: 'Web Design Launchpad',
+    level: 'Beginner',
+    duration: '6 weeks',
+    projects: '',
+    desc: 'Create websites using HTML & CSS.'
+  },
+  {
+    cat: 'computers',
+    name: 'MS Word Essentials',
+    level: 'Beginner',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Create documents, school projects & reports.'
+  },
+  {
+    cat: 'computers',
+    name: 'MS Excel for Students',
+    level: 'Intermediate',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Learn formulas, charts & data tables.'
+  },
+  {
+    cat: 'computers',
+    name: 'PowerPoint Presentation Skills',
+    level: 'Beginner',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Create amazing slides with animations.'
+  },
+  {
+    cat: 'english',
+    name: 'Speak Smart Daily English',
+    level: '',
+    duration: '6 weeks',
+    projects: 'Speaking + Grammar',
+    desc: 'Improve everyday communication skills.'
+  },
+  {
+    cat: 'english',
+    name: 'Public Speaking Champion',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Storytelling, debates & stage confidence.'
+  },
+  {
+    cat: 'softskills',
+    name: 'Leadership & Teamwork Lab',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Group tasks, team challenges & leadership games.'
+  },
+  {
+    cat: 'softskills',
+    name: 'Smart Study & Time Management',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Learn planning, focus & exam preparation.'
+  },
+  {
+    cat: 'college',
+    name: 'College Survival Skills',
+    level: '',
+    duration: '6 weeks',
+    projects: '',
+    desc: 'Communication, mindset & independence training.'
+  },
+  {
+    cat: 'college',
+    name: 'Academic Success Toolkit',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Study techniques, note-taking & confidence building.'
+  }
+];
+=======
+const coursesData = [
+  {
+    id: 1,
+    cat: 'electronics',
+    name: 'Circuit Creator Basics',
+    level: 'Beginner',
+    duration: '6 weeks',
+    projects: '8 projects',
+    desc: 'Learn LEDs, buzzers, switches & breadboard basics.'
+  },
+  {
+    id: 2,
+    cat: 'electronics',
+    name: 'Sensor Science Lab',
+    level: 'Intermediate',
+    duration: '8 weeks',
+    projects: '10 projects',
+    desc: 'Build smart systems with LDR, IR & Ultrasonic sensors.'
+  },
+  {
+    id: 3,
+    cat: 'electronics',
+    name: 'Arduino Mini Engineer',
+    level: 'Advanced',
+    duration: '8 weeks',
+    projects: '12 projects',
+    desc: 'Create automation projects using Arduino.'
+  },
+  {
+    id: 4,
+    cat: 'coding',
+    name: 'Python Starter Bootcamp',
+    level: 'Beginner',
+    duration: '6 weeks',
+    projects: '',
+    desc: 'Learn Python basics & build mini apps.'
+  },
+  {
+    id: 5,
+    cat: 'coding',
+    name: 'Web Design Launchpad',
+    level: 'Beginner',
+    duration: '6 weeks',
+    projects: '',
+    desc: 'Create websites using HTML & CSS.'
+  },
+  {
+    id: 6,
+    cat: 'computers',
+    name: 'MS Word Essentials',
+    level: 'Beginner',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Create documents, school projects & reports.'
+  },
+  {
+    id: 7,
+    cat: 'computers',
+    name: 'MS Excel for Students',
+    level: 'Intermediate',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Learn formulas, charts & data tables.'
+  },
+  {
+    id: 8,
+    cat: 'computers',
+    name: 'PowerPoint Presentation Skills',
+    level: 'Beginner',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Create amazing slides with animations.'
+  },
+  {
+    id: 9,
+    cat: 'english',
+    name: 'Speak Smart Daily English',
+    level: '',
+    duration: '6 weeks',
+    projects: 'Speaking + Grammar',
+    desc: 'Improve everyday communication skills.'
+  },
+  {
+    id: 10,
+    cat: 'english',
+    name: 'Public Speaking Champion',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Storytelling, debates & stage confidence.'
+  },
+  {
+    id: 11,
+    cat: 'softskills',
+    name: 'Leadership & Teamwork Lab',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Group tasks, team challenges & leadership games.'
+  },
+  {
+    id: 12,
+    cat: 'softskills',
+    name: 'Smart Study & Time Management',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Learn planning, focus & exam preparation.'
+  },
+  {
+    id: 13,
+    cat: 'college',
+    name: 'College Survival Skills',
+    level: '',
+    duration: '6 weeks',
+    projects: '',
+    desc: 'Communication, mindset & independence training.'
+  },
+  {
+    id: 14,
+    cat: 'college',
+    name: 'Academic Success Toolkit',
+    level: '',
+    duration: '4 weeks',
+    projects: '',
+    desc: 'Study techniques, note-taking & confidence building.'
+  }
+];
